@@ -10,9 +10,11 @@ namespace Quinto_Exercicio_Prova_do_Djalma
     {
         static void Main(string[] args)
         {
-            int i = 0;
+            
+                
+            int i = 1;
 
-            while (i <= 100) 
+            while (i <= 100)
             {
                 if (i % 2 == 0)
                 {
@@ -20,13 +22,14 @@ namespace Quinto_Exercicio_Prova_do_Djalma
                 }
 
 
-            
+
 
 
                 i++;
-                
+
             }
             Console.ReadKey();
+
 
 
         }
